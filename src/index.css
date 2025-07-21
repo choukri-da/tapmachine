@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import "tailwindcss";
+* {
+  font-family: Outfit;
+}
+td {
+    font-weight: 500;
+    padding: 0.5em;
+    text-align: start;
+    width: 50%;
+    color: #000000;
+}
+th {
+    text-align: start;
+    padding: 0.5em;
+    background-color: #1F3C8B;
+    color: #ffffff;
+}
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+.product-details li {
+    list-style: disc;
+    padding: 0.3em;
+}
